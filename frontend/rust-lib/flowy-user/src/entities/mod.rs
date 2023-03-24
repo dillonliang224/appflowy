@@ -1,4 +1,7 @@
-mod status;
+pub use auth::*;
+pub use user_profile::*;
+pub use user_setting::*;
 
-pub use flowy_user_data_model::entities::*;
-pub use status::*;
+pub mod auth;
+mod user_profile;
+mod user_setting;
